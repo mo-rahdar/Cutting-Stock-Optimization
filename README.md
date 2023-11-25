@@ -13,8 +13,6 @@ The key characteristic of the cutting-stock problem lies in its inherent complex
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
