@@ -1,22 +1,17 @@
 # Cutting-Stock-Optimization
 The cutting-stock problem is a challenge encountered in manufacturing and production optimization. This problem involves the efficient cutting of standard-sized pieces of stock material, such as paper rolls or sheet metal, into smaller pieces of specified sizes. The primary objective is to minimize material waste during the cutting process.
 
-# Cutting Stock Optimization
+# The Problem
 
-The key characteristic of the cutting-stock problem lies in its inherent complexity and the potential for generating a vast number of different product units from a single master roll. The challenge is not only to determine how to cut the stock material to meet specific size requirements but also to find the optimal combination of cuts that minimize wasted material. Given the multitude of potential combinations, the task is non-trivial, requiring sophisticated optimization techniques to identify the most efficient and economical cutting patterns. This problem is particularly relevant in industries where maximizing material utilization and minimizing waste are critical factors for cost-effectiveness and sustainability.
-
+<img src="carpenter_cutting_wood_wit.png" align="right" width="300px"/>
+The key characteristic of the cutting-stock problem lies in its inherent complexity and the potential for generating a vast number of different product units from a single master roll. The challenge is not only to determine how to cut the stock material to meet specific size requirements but also to find the optimal combination of cuts that minimize wasted material. Given the multitude of potential combinations, the task is non-trivial, requiring sophisticated optimization techniques to identify the most efficient and economical cutting patterns. This problem is particularly relevant in industries where maximizing material utilization and minimizing waste are critical factors for cost-effectiveness and sustainability. This project provides a solution to the cutting-stock problem using optimization techniques. You need to provide the specified orders to cut from the stock material, the demand for each piece, and the standard size of the stock materials.
+<br clear="left"/>
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Usage](#usage)
 - [Requirements](#requirements)
-- [Installation](#installation)
 - [Examples](#examples)
-
-## Introduction
-
-In operations research, the cutting-stock problem is the problem of cutting standard-sized pieces of stock material, such as paper rolls or sheet metal, into pieces of specified sizes while minimizing material waste. This project provides a solution to the cutting-stock problem using optimization techniques.
 
 ## Usage
 
@@ -31,21 +26,6 @@ To use the cutting stock optimization code:
 - Python 3
 - Pyomo (Python Optimization Modeling Objects)
 - glpk solver
-
-## Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/cutting-stock-optimization.git
-    cd cutting-stock-optimization
-    ```
-
-2. Install the required dependencies:
-
-    ```bash
-    pip install pyomo
-    ```
 
 ## Examples
 
